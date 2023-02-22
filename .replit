@@ -1,0 +1,5 @@
+run = "cd rammerhead && npm run build && node src/server.js"
+onboot = "cd rammerhead && npm install"
+
+[nix]
+channel = "stable-21_11"
